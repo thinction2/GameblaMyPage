@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89" height="89" viewBox="0 0 89 89">
+  <defs>
+    <filter id="Rectangle" x="0" y="0" width="89" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-2" x="3" y="3.5" width="83" height="83.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-3" x="3" y="3" width="83" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="image_profile" transform="translate(-11.5 -40.5)">
+    <g id="Elevation_00dp" data-name="Elevation/00dp" transform="translate(16 44)">
+      <g id="Shadow" style="mix-blend-mode: multiply;isolation: isolate">
+        <g transform="matrix(1, 0, 0, 1, -4.5, -3.5)" filter="url(#Rectangle)">
+          <rect id="Rectangle-4" data-name="Rectangle" width="80" height="80" rx="40" transform="translate(4.5 3.5)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -4.5, -3.5)" filter="url(#Rectangle-2)">
+          <rect id="Rectangle-5" data-name="Rectangle" width="80" height="80" rx="40" transform="translate(4.5 3.5)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -4.5, -3.5)" filter="url(#Rectangle-3)">
+          <rect id="Rectangle-6" data-name="Rectangle" width="80" height="80" rx="40" transform="translate(4.5 3.5)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="image" transform="translate(16 44)" fill="#d1d1d1" stroke="#78859e" stroke-width="2">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="39" fill="none"/>
+    </g>
+  </g>
+</svg>

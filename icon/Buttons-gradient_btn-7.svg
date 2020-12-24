@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="108" viewBox="0 0 100 108">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="States" width="92" height="12" transform="translate(68 775)" fill="none" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+    <filter id="Rectangle" x="14" y="10" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-2" x="5" y="0" width="90" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-3" x="12.5" y="10.5" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4fb948"/>
+      <stop offset="1" stop-color="#a8e063"/>
+    </linearGradient>
+  </defs>
+  <g id="Buttons_gradient_btn" data-name="Buttons/gradient_btn" transform="translate(0 8)">
+    <rect id="States-2" data-name="States" width="100" height="100" fill="none"/>
+    <g id="text_button" transform="translate(-64 -695)" clip-path="url(#clip-path)">
+      <text id="Text" transform="translate(68 771)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" letter-spacing="0.033em"><tspan x="10.342" y="14">팔로우한 채널</tspan></text>
+    </g>
+    <g id="btn" transform="translate(-64 -694)">
+      <g id="Elevation_00dp" data-name="Elevation/00dp" transform="translate(84 700)">
+        <g id="Shadow" style="mix-blend-mode: multiply;isolation: isolate">
+          <g transform="matrix(1, 0, 0, 1, -20, -14)" filter="url(#Rectangle)">
+            <rect id="Rectangle-4" data-name="Rectangle" width="60" height="60" rx="16" transform="translate(20 14)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20, -14)" filter="url(#Rectangle-2)">
+            <rect id="Rectangle-5" data-name="Rectangle" width="60" height="60" rx="16" transform="translate(20 14)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20, -14)" filter="url(#Rectangle-3)">
+            <rect id="Rectangle-6" data-name="Rectangle" width="60" height="60" rx="16" transform="translate(20 14)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <rect id="bg_gradient_btn" width="60" height="60" rx="16" transform="translate(84 700)" fill="url(#linear-gradient)"/>
+      <g id="icon" transform="translate(94 710)">
+        <rect id="Boundary" width="40" height="40" fill="none"/>
+        <path id="_Color" data-name=" ↳Color" d="M16.667,30,14.25,27.842C5.667,20.207,0,15.172,0,8.992A8.992,8.992,0,0,1,9.167,0a10.061,10.061,0,0,1,7.5,3.417A10.061,10.061,0,0,1,24.167,0a8.992,8.992,0,0,1,9.167,8.992c0,6.18-5.667,11.215-14.25,18.866Z" transform="translate(3.333 5)" fill="#fff"/>
+        <path id="패스_11634" data-name="패스 11634" d="M26.167,3a9.981,9.981,0,0,0-7.5,3.483A9.981,9.981,0,0,0,11.167,3,9.078,9.078,0,0,0,2,12.167C2,18.467,7.667,23.6,16.25,31.4l2.417,2.183,2.417-2.2c8.583-7.783,14.25-12.917,14.25-19.217A9.078,9.078,0,0,0,26.167,3ZM18.833,28.917l-.167.167-.167-.167C10.567,21.733,5.333,16.983,5.333,12.167a5.7,5.7,0,0,1,5.833-5.833,6.516,6.516,0,0,1,5.95,3.933h3.117a6.474,6.474,0,0,1,5.933-3.933A5.7,5.7,0,0,1,32,12.167C32,16.983,26.767,21.733,18.833,28.917Z" transform="translate(1.333 2)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

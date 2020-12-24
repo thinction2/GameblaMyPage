@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="108" viewBox="0 0 100 108">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="States" width="92" height="12" transform="translate(68 775)" fill="none" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+    <filter id="Rectangle" x="14" y="10" width="72" height="72" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-2" x="5" y="0" width="90" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-3" x="12.5" y="10.5" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4fb948"/>
+      <stop offset="1" stop-color="#a8e063"/>
+    </linearGradient>
+  </defs>
+  <g id="Buttons_gradient_btn" data-name="Buttons/gradient_btn" transform="translate(0 8)">
+    <rect id="States-2" data-name="States" width="100" height="100" fill="none"/>
+    <g id="text_button" transform="translate(-64 -695)" clip-path="url(#clip-path)">
+      <text id="Text" transform="translate(68 771)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" letter-spacing="0.033em"><tspan x="21.778" y="14">계정 관리</tspan></text>
+    </g>
+    <g id="btn" transform="translate(-64 -694)">
+      <g id="Elevation_00dp" data-name="Elevation/00dp" transform="translate(84 700)">
+        <g id="Shadow" style="mix-blend-mode: multiply;isolation: isolate">
+          <g transform="matrix(1, 0, 0, 1, -20, -14)" filter="url(#Rectangle)">
+            <rect id="Rectangle-4" data-name="Rectangle" width="60" height="60" rx="16" transform="translate(20 14)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20, -14)" filter="url(#Rectangle-2)">
+            <rect id="Rectangle-5" data-name="Rectangle" width="60" height="60" rx="16" transform="translate(20 14)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20, -14)" filter="url(#Rectangle-3)">
+            <rect id="Rectangle-6" data-name="Rectangle" width="60" height="60" rx="16" transform="translate(20 14)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <rect id="bg_gradient_btn" width="60" height="60" rx="16" transform="translate(84 700)" fill="url(#linear-gradient)"/>
+      <g id="icon" transform="translate(94 710)">
+        <path id="패스_11648" data-name="패스 11648" d="M0,0H40V40H0Z" fill="none"/>
+        <path id="shield-key" d="M18,12.667a1.667,1.667,0,1,1-1.667,1.667A1.667,1.667,0,0,1,18,12.667m15,5c0,9.25-6.4,17.9-15,20-8.6-2.1-15-10.75-15-20v-10L18,1,33,7.667v10M18,9.333a5,5,0,0,0-1.667,9.717V29.333h3.333V26H23V22.667H19.667V19.05A5,5,0,0,0,18,9.333Z" transform="translate(2 0.667)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
