@@ -9,8 +9,8 @@ import {
   Help,
   AccountManagement,
   Reply,
-  FollowedChnnel,
-} from "./icon/icon";
+  FollowedChannel,
+} from "../../icon/icon";
 
 const IconComponent = () => {
   return (
@@ -20,7 +20,7 @@ const IconComponent = () => {
           <ProfileEdit />
         </View>
         <View style={styles.iconWrap}>
-          <FollowedChnnel />
+          <FollowedChannel />
         </View>
         <View style={[styles.iconWrap, { marginRight: 0 }]}>
           <Reply />
@@ -55,6 +55,7 @@ const IconComponent = () => {
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
+    marginTop: 50,
   },
   iconOneLineWrap: {
     flexDirection: "row",
